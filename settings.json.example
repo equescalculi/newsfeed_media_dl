@@ -1,0 +1,16 @@
+{
+    "directory": "/home/user/Downloads/newsfeed_media_dl",
+    "maxage": 7,
+    "feeds": [
+        {
+            "url": "https://www.example.com/feed1.rss",
+            "regex": ".*",
+            "downloader": "wget"
+        },
+        {
+            "url": "https://www.example.com/feed2.rss",
+            "regex": "Video: .*",
+            "downloader": "youtube-dl"
+        }
+    ]
+}
